@@ -22,3 +22,4 @@ IMG-0131.jpg -> A példa fotó
 
 modelll.h5 -> a betanult hálózat
 
+Sargacsekk_Pinter_Andras_NJTXXY.pdf -> dokumentáció
