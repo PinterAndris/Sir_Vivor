@@ -4,18 +4,16 @@ Nagy házi feladat BME Deep learning (VITMAV45)
 
 SÁRGACSEKK DIGITALIZÁLÁSA
 
-A jelenleg feltöltött változat az előzetes változat.
+E feladattal csupán az aláírás feltételeit szeretném teljesíteni. Mivel a csapat a félév végén széthullott, egyedül dolgozom a projekten.
 
-E feladattal csupán az aláírás feltételeit szeretném teljesíteni. Mivel a csapat széthullott, egyedül dolgozom a projekten.
+A repo az előzetes változatot és a végleges változatot is tartalmazza.
 
-A feladathoz felhasznált segítségek:
 
-    Az alapok:
-    https://medium.com/@yash.kukreja.98/recognizing-handwritten-digits-in-real-life-images-using-cnn-3b48a9ae5e3
-    
-    Képszegmentáció:
-    https://docs.opencv.org/2.4/doc/tutorials/imgproc/threshold/threshold.html
-    https://docs.opencv.org/3.4/d9/d8b/tutorial_py_contours_hierarchy.html
 
-A hálózatot keras használatával hoztam létre, az mnist adatbázison tanítottam, a tanítás során 97.8%-os pontosságot sikerült elérni három epoch alatt.
-A hálózat működés sikerességéhez arra a képességre is szükség van, hogy a fényképen megtalálja a számokat. Ehhez opencv-t használtam. A fényképet szürkeárnyalatosra állítottam, és a pixelek aktivitása alapján terveztem kiszűrni azokat a képpontokat, amik a számjegyek ábrázolásának részei, azonban a fénykép árnyékossága megnehezítette ezt. Ha ez a probléma a továbbiakban is fennáll, akkor csak szkenneléssel összekötve lehet majd használni a programot.
+A végleges verzió fáljjai:
+
+DL_HF_BEOLV.ipynb -> kép preprocesszálása
+DL_HF_feltoltott -> preprocesszált kép beolvasása és predikció
+IMG-0131.jpg -> A példa fotó
+modelll.h5 -> a betanult hálózat
+
