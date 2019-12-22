@@ -12,8 +12,13 @@ A repo az előzetes változatot és a végleges változatot is tartalmazza.
 
 A végleges verzió fáljjai:
 
+
+
 DL_HF_BEOLV.ipynb -> kép preprocesszálása
+
 DL_HF_feltoltott -> preprocesszált kép beolvasása és predikció
+
 IMG-0131.jpg -> A példa fotó
+
 modelll.h5 -> a betanult hálózat
 
